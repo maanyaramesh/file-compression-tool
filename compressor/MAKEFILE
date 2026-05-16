@@ -1,1 +1,8 @@
+CC=gcc
+CFLAGS=-Wall
 
+all:
+	$(CC) main.c rle.c -o compressor $(CFLAGS)
+
+clean:
+	rm -f compressor
