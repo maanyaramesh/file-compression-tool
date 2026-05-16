@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ZipLite</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>ZipLite</h1>
+
+        <p class="subtitle">
+            File Compression Tool Built in C
+        </p>
+
+        <div class="upload-box">
+
+            <input type="file"
+                   id="fileInput">
+
+            <div class="buttons">
+
+                <button onclick="compressFile()">
+                    Compress
+                </button>
+
+                <button onclick="decompressFile()">
+                    Decompress
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="stats">
+
+            <h2>Compression Analytics</h2>
+
+            <div class="stat-item">
+
+                <p>Original Size</p>
+
+                <h3 id="originalSize">
+                    0 KB
+                </h3>
+
+            </div>
+
+            <div class="stat-item">
+
+                <p>Compressed Size</p>
+
+                <h3 id="compressedSize">
+                    0 KB
+                </h3>
+
+            </div>
+
+            <div class="stat-item">
+
+                <p>Compression Ratio</p>
+
+                <h3 id="ratio">
+                    0%
+                </h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
