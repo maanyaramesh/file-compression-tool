@@ -342,6 +342,14 @@ Contributions are welcome.
 
 ---
 
+# 🌍 Deployment Status
+
+Currently optimized for local execution and development.
+
+The frontend dashboard, Flask backend, and C compression engine can be run locally using the setup instructions provided above.
+
+---
+
 # 👨‍💻 Author
 
 Maanya Ramesh
